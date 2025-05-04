@@ -1,0 +1,46 @@
+name: sales_master
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.0.2
+  flutter_animate: ^4.2.0+1
+  shared_preferences: ^2.2.0
+  smooth_page_indicator: ^1.1.0
+  flutter_screenutil: ^5.9.0
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.1
+  animations: ^2.0.8
+  image_picker: ^1.0.4
+  dynamic_color: ^1.6.7
+  font_awesome_flutter: ^10.5.0
+  badges: ^3.1.2
+  ms_undraw:
+    git:
+      url: https://github.com/MhmdFouda/ms_undraw
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  riverpod_generator: ^2.3.2
+  custom_lint: ^0.5.1
+  riverpod_lint: ^2.0.0
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+  isar_generator: ^3.1.0+1
+
+flutter:
+  uses-material-design: true
